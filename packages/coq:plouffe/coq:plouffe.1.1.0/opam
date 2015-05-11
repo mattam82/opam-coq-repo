@@ -12,5 +12,5 @@ remove: ["rm" "-R" "%{lib}%/coq/user-contrib/Plouffe"]
 depends: [
   "coq" {>= "8.4pl4"}
   "coq:ssreflect"
-  "coq:coquelicot" {= "2.0.1"}
+  "coq:coquelicot" {>= "2.1.0"}
 ]
